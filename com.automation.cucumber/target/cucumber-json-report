@@ -1,0 +1,64 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Test login with valid credentials",
+        "description": "",
+        "id": "test-facebook-application;test-login-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4770587298,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "open browser and start application",
+            "match": {
+              "location": "SmokeTest.open_browser_and_start_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 284423554,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter valid username and password",
+            "match": {
+              "location": "SmokeTest.i_enter_valid_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1605344050,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should login succesfully",
+            "match": {
+              "location": "SmokeTest.user_should_login_succesfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Test Facebook application",
+    "description": "",
+    "id": "test-facebook-application",
+    "keyword": "Feature",
+    "uri": "MyApplication.feature"
+  }
+]

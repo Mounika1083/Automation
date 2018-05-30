@@ -1,0 +1,20 @@
+[
+  {
+    "source": "^open browser and start application$",
+    "steps": [
+      {
+        "name": "open browser and start application",
+        "aggregatedDurations": {
+          "average": 4.616851952,
+          "median": 4.616851952
+        },
+        "durations": [
+          {
+            "duration": 4.616851952,
+            "location": "MyApplication.feature:5"
+          }
+        ]
+      }
+    ]
+  }
+]
